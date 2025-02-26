@@ -1,0 +1,19 @@
+---
+title: "EDS 241 Final Project"
+author: "Karol Paya, Leilanie Rubinstein, Takeen Shamloo"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# Install packages
+library(tidyverse)
+library(haven)
+
+# Read in study data
+data <- read_dta(here::here("data", "data.dta"))
+
+head(data)
+```
+
